@@ -1,0 +1,118 @@
+
+<div class="wrapper">
+<nav id="sidebar" >
+    <div class="sidebar-header">
+        <h3>Employee MIS</h3>
+
+    </div>
+
+    <ul class="list-unstyled components">
+        <li class="active">
+            <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false">Home</a>
+        </li>
+        <li>
+            <a routerLinkActive="active" routerLink="list">Employee List</a>
+        </li>
+        <li>
+            <a routerLinkActive="active" routerLink="create">Add Employee</a>
+        </li>
+        <li>
+            <a href="#">About</a>
+        </li>
+        <li>
+            <a href="#">Contact</a>
+        </li>
+    </ul>
+
+
+</nav>
+<div id="content" style="width: 100%;">
+
+    <nav class="navbar navbar-default">
+        <div class="container-fluid">
+
+
+            <div class="navbar-header">
+                <button type="button" (click)="toggleNavigation()" id="sidebarCollapse" class="btn btn-info navbar-btn">
+                    <i class="glyphicon glyphicon-align-left"></i>
+                    <span></span>
+                </button>
+            </div>
+
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#">Page</a></li>
+                    <li><a href="#">Page</a></li>
+                    <li><a href="#">Page</a></li>
+                    <li><a href="#">Page</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+<router-outlet></router-outlet>
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--
+<div class="container">
+  <app-list-employees></app-list-employees>
+</div> -->
+
+
+<!-- <app-my-grid-application></app-my-grid-application> -->
+
+<!-- <div class="container">
+  <nav class="navbar navbar-default">
+      <ul class="nav navbar-nav">
+          <li>
+              <a routerLink="list">List</a>
+          </li>
+          <li>
+              <a routerLink="create">Create</a>
+          </li>
+      </ul>
+  </nav>
+  <router-outlet></router-outlet>
+</div>
+
+<router-outlet></router-outlet> -->
